@@ -1,62 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Alfabetinho - Atividades Educacionais</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
+      background-color: #f9f9f9;
       color: #333;
     }
     header {
-      background-color: #4CAF50;
+      background-color: #6C63FF;
       color: white;
-      padding: 20px;
+      padding: 30px 20px;
       text-align: center;
     }
     main {
-      padding: 20px;
+      padding: 30px 20px;
       max-width: 800px;
       margin: auto;
       background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    }
+    h1, h2 {
+      color: #6C63FF;
+    }
+    ul {
+      list-style: disc;
+      padding-left: 20px;
     }
     .buttons {
       display: flex;
       flex-direction: column;
-      gap: 15px;
+      gap: 20px;
       margin-top: 30px;
     }
     .buttons a {
       text-decoration: none;
-      padding: 15px;
-      text-align: center;
-      border-radius: 5px;
+      padding: 18px;
+      font-size: 1.1em;
       font-weight: bold;
-      transition: background-color 0.3s ease;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .buttons a:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
     }
     .shop-button {
-      background-color: #2196F3;
-      color: white;
-    }
-    .shop-button:hover {
-      background-color: #1976D2;
+      background-color: #FFCE00;
+      color: #000;
     }
     .whatsapp-button {
       background-color: #25D366;
       color: white;
-    }
-    .whatsapp-button:hover {
-      background-color: #1DA851;
     }
     footer {
       text-align: center;
       padding: 20px;
       font-size: 0.9em;
       color: #777;
+      margin-top: 40px;
     }
   </style>
 </head>
@@ -64,29 +73,27 @@
 
   <header>
     <h1>Alfabetinho</h1>
-    <p>Atividades Educacionais para Todas as Idades</p>
+    <p>Educação de qualidade ao seu alcance</p>
   </header>
 
   <main>
-    <h2>Descubra Recursos Educacionais de Qualidade</h2>
-    <p>
-      No Alfabetinho, oferecemos uma variedade de atividades para apoiar o desenvolvimento educacional de crianças e adolescentes. Nossos materiais são cuidadosamente elaborados para atender às necessidades de diferentes faixas etárias e níveis de ensino.
-    </p>
+    <h2>Atividades Educacionais para Todas as Fases</h2>
+    <p>Descubra uma seleção completa de materiais pedagógicos criados por especialistas da educação. Perfeitos para o dia a dia escolar, planos de aula, avaliações e relatórios para diversas etapas do ensino.</p>
     <ul>
       <li>Educação Infantil</li>
-      <li>Ensino Fundamental - Anos Iniciais e Finais</li>
+      <li>Anos Iniciais e Finais do Ensino Fundamental</li>
       <li>Ensino Médio</li>
-      <li>Avaliações e Relatórios de Desenvolvimento</li>
+      <li>Relatórios e Avaliações</li>
     </ul>
 
     <div class="buttons">
-      <a href="https://www.alfabetinho.com.br" class="shop-button" target="_blank">Acessar Loja</a>
-      <a href="https://wa.me/SEU_NUMERO?text=Olá%2C%20gostaria%20de%20mais%20informações%20sobre%20os%20produtos%20do%20Alfabetinho." class="whatsapp-button" target="_blank">Fale Conosco no WhatsApp</a>
+      <a href="https://www.alfabetinho.com.br" class="shop-button" target="_blank">📚 Acessar a Loja Oficial</a>
+      <a href="https://wa.me/SEU_NUMERO?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20materiais%20do%20Alfabetinho." class="whatsapp-button" target="_blank">💬 Falar com a Gente no WhatsApp</a>
     </div>
   </main>
 
   <footer>
-    <p>&copy; 2025 Alfabetinho - Atividades Para Alfabetização LTDA</p>
+    <p>&copy; 2025 Alfabetinho - Todos os direitos reservados</p>
     <p>CNPJ: 40.598.058/0001-01</p>
   </footer>
 
