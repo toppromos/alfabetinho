@@ -1,71 +1,103 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Alfabetinho - Atividades Educacionais</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alfabetinho - 1500 Atividades para Alfabetização</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f9f9f9;
+      background-color: #f4f4f4;
       color: #333;
     }
     header {
       background-color: #6C63FF;
       color: white;
-      padding: 30px 20px;
+      padding: 20px;
       text-align: center;
     }
     main {
-      padding: 30px 20px;
-      max-width: 800px;
+      padding: 20px;
+      max-width: 900px;
       margin: auto;
       background-color: white;
       border-radius: 8px;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-    h1, h2 {
+    h1 {
+      color: white;
+    }
+   h2 {
       color: #6C63FF;
+    }
+    p {
+      line-height: 1.6;
     }
     ul {
       list-style: disc;
-      padding-left: 20px;
+      margin-left: 20px;
     }
     .buttons {
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      gap: 15px;
       margin-top: 30px;
     }
     .buttons a {
       text-decoration: none;
-      padding: 18px;
-      font-size: 1.1em;
-      font-weight: bold;
-      border-radius: 10px;
+      padding: 15px;
       text-align: center;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease, transform 0.2s ease;
     }
     .buttons a:hover {
       transform: scale(1.05);
-      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
     }
     .shop-button {
       background-color: #FFCE00;
-      color: #000;
+      color: #333;
+    }
+    .shop-button:hover {
+      background-color: #e0b200;
     }
     .whatsapp-button {
       background-color: #25D366;
       color: white;
+    }
+    .whatsapp-button:hover {
+      background-color: #1da851;
     }
     footer {
       text-align: center;
       padding: 20px;
       font-size: 0.9em;
       color: #777;
-      margin-top: 40px;
+    }
+    .activity-images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .activity-images img {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    @media (min-width: 600px) {
+      .buttons {
+        flex-direction: row;
+        justify-content: center;
+      }
+      .buttons a {
+        flex: 1;
+        max-width: 300px;
+      }
     }
   </style>
 </head>
@@ -73,28 +105,35 @@
 
   <header>
     <h1>Alfabetinho</h1>
-    <p>Educação de qualidade ao seu alcance</p>
+    <p>1500 Atividades para Alfabetização</p>
   </header>
 
   <main>
-    <h2>Atividades Educacionais para Todas as Fases</h2>
-    <p>Descubra uma seleção completa de materiais pedagógicos criados por especialistas da educação. Perfeitos para o dia a dia escolar, planos de aula, avaliações e relatórios para diversas etapas do ensino.</p>
+    <h2>Reforce e Acelere a Alfabetização de Forma Divertida</h2>
+    <p>
+      Apresentamos um material completo com mais de 1500 páginas de atividades voltadas para crianças de 3 a 10 anos. Desenvolvido para tornar o aprendizado mais eficaz e prazeroso.
+    </p>
     <ul>
-      <li>Educação Infantil</li>
-      <li>Anos Iniciais e Finais do Ensino Fundamental</li>
-      <li>Ensino Médio</li>
-      <li>Relatórios e Avaliações</li>
+      <li>Atividades de alfabetização lúdicas e interativas</li>
+      <li>Indicadas para crianças de 3 a 10 anos</li>
+      <li>Material digital em formato PDF para impressão</li>
+      <li>Acesso vitalício e atualizações conforme a BNCC 2025</li>
     </ul>
 
+    <div class="activity-images">
+      <img src="https://static-public.pages.hotmart.com/uploads/media/file/4500556/1.png" alt="Exemplo de atividade 1">
+      <img src="https://static-public.pages.hotmart.com/uploads/media/file/4500558/3.png" alt="Exemplo de atividade 2">
+      <img src="https://static-public.pages.hotmart.com/uploads/media/file/4500557/2.png" alt="Exemplo de atividade 3">
+    </div>
+
     <div class="buttons">
-      <a href="https://www.alfabetinho.com.br" class="shop-button" target="_blank">📚 Acessar a Loja Oficial</a>
-      <a href="https://wa.me/SEU_NUMERO?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20materiais%20do%20Alfabetinho." class="whatsapp-button" target="_blank">💬 Falar com a Gente no WhatsApp</a>
+      <a href="https://go.hotmart.com/B98523707O" class="shop-button" target="_blank">Acessar Loja Oficial</a>
+      <a href="https://wa.me/555180188344?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20as%201500%20atividades%20para%20alfabetização." class="whatsapp-button" target="_blank">Fale Conosco no WhatsApp</a>
     </div>
   </main>
 
   <footer>
-    <p>&copy; 2025 Alfabetinho - Todos os direitos reservados</p>
-    <p>CNPJ: 40.598.058/0001-01</p>
+    <p>&copy; 2025 Alfabetinho - Atividades Para Alfabetização LTDA</p>
   </footer>
 
 </body>
