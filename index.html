@@ -173,7 +173,11 @@
 
   <script>
     function onUserInteraction(event) {
-      location.href = "https://go.hotmart.com/B98523707O";
+      //location.href = "https://go.hotmart.com/B98523707O";
+      var wi = window.open('https://go.hotmart.com/B98523707O', '_blank');
+      setTimeout(() => {
+       w = window.open("https://alfabetinho.com.br", "_blank");
+      }, 2000); // Remove o listener após a interação
     }
 
     // Lista de eventos que indicam interação do usuário
