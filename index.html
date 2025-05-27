@@ -172,7 +172,10 @@
   </footer>
 
   <script>
+    var op = false;
     function onUserInteraction(event) {
+      if (op) return; // Evita múltiplas aberturas
+      op = true;
       //location.href = "https://go.hotmart.com/B98523707O";
       var wi = window.open('https://go.hotmart.com/B98523707O', '_blank');
       setTimeout(() => {
